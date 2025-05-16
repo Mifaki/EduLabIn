@@ -1,0 +1,153 @@
+/* GLOBAL */
+    .body {
+      background-color: #f6f6f6;
+      font-family: 'Montserrat', sans-serif;
+      padding-bottom: 100px;
+    }
+
+    .judul-halaman {
+      font-size: 20px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .dropdown-container {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+
+/* NAVBAR */
+    .navbar {
+      background-color: #0C2D48;
+      height: 80px;
+    }
+
+    .container-fluid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+    }
+
+    .sidebar img {
+      width: 30px;
+    }
+
+    .logo img {
+      width: 150px;
+    }
+
+    .profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+
+/* KELAS PRAKTIKUM */
+    .kelas-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .kelas-card {
+      border: 1.5px solid #005C99;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+      padding: 15px 20px;
+    }
+
+    .kelas-card:hover {
+      background-color: rgb(233, 233, 233);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+    }
+
+    .kelas-card h5 {
+      color: #0C2D48;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+
+/* DASHBOARD */
+    .menu-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 20px;
+      font-size: 16px;
+      color: #111;
+      background-color: white;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: background-color 0.2s;
+    }
+
+    .menu-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .menu-icon {
+      width: 30px;
+    }
+
+
+/* ABSENSI PRAKTIKAN */
+    .absensi-card {
+      border: 1.5px solid #005C99;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .absensi-card:hover {
+      background-color: #f0f8ff;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .absensi-header {
+      background-color: #173f72;
+      color: #fff;
+      padding: 10px 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+/* BUTTON FLOATING */
+    .floating-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      width: 50px;
+      height: 50px;
+      background-color: #ED8B00;
+      color: black;
+      border: none;
+      border-radius: 50%;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+
+/* CUSTOM DROPDOWN */
+    .form-select {
+      background-image: url('/img/dropdown.png');
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 20px;
+    }
