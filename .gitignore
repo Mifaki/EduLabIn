@@ -21,3 +21,6 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+# Firebase
+storage/app/firebase/
+*firebase*adminsdk*.json
