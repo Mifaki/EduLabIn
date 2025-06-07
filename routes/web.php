@@ -17,7 +17,7 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-// Asprak routes
+// Admin routes
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 });
