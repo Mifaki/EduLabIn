@@ -8,4 +8,9 @@ class AdminController extends Controller
     {
         return view('AdminDashboard');
     }
+
+    public function profile()
+    {
+        return view('AdminProfile');
+    }
 }

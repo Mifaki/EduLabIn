@@ -20,6 +20,7 @@ Route::get('/login', function () {
 // Admin routes
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
 });
 
 Route::get('/navbar', function () {
