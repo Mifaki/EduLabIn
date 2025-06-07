@@ -51,6 +51,10 @@
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%235d5d5d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
         }
 
+        textarea {
+            min-height: 200px !important;
+        }
+
         .form-select option {
             font-family: 'Montserrat', sans-serif;
             color: var(--neutral-600);
@@ -64,6 +68,14 @@
 
         .text-secondary {
             color: var(--secondary) !important;
+        }
+
+        .page-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            margin-top: 20px;
+            text-align: left;
         }
     </style>
 
