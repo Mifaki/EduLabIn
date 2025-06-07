@@ -21,6 +21,7 @@ Route::get('/login', function () {
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
+    Route::get('/class', [AdminController::class, 'class'])->name('class');
 });
 
 Route::get('/navbar', function () {
