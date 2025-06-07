@@ -22,6 +22,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
     Route::get('/class', [AdminController::class, 'class'])->name('class');
+    Route::get('/assistant-candidate', [AdminController::class, 'assistantCandidate'])->name('assistantCandidate');
+
 });
 
 Route::get('/navbar', function () {

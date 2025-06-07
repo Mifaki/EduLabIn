@@ -18,4 +18,9 @@ class AdminController extends Controller
     {
         return view('AdminClass');
     }
+
+    public function assistantCandidate()
+    {
+        return view('AdminAssistantCandidate');
+    }
 }
