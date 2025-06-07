@@ -28,7 +28,7 @@
 
 @section('content')
 <main class="container py-4">
-    <h1 class="judul-halaman">Dashboard</h1>
+    <h1>Dashboard</h1>
 
     <a href="#" class="text-decoration-none">
         <div class="menu-item">
