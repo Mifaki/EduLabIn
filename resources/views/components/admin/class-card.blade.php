@@ -26,7 +26,7 @@
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(117, 117, 117, 0.3);
-    border: none;
+    border: 1px solid;
     margin-bottom: 16px;
     overflow: hidden;
 }
