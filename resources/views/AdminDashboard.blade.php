@@ -32,29 +32,29 @@
 
     <a href="#" class="text-decoration-none">
         <div class="menu-item">
-            <img src="{{ asset('img/iconAbsensiPraktikan.png') }}" alt="Absensi Praktikan" class="menu-icon">
-            <span>Absensi Praktikan</span>
+            <img src="{{ asset('img/iconKelasPraktikum.png') }}" alt="Kelas Praktikum" class="menu-icon">
+            <span>Kelas Praktikum</span>
         </div>
     </a>
 
     <a href="#" class="text-decoration-none">
         <div class="menu-item">
-            <img src="{{ asset('img/iconDataDiri.png') }}" alt="Data Diri Asprak" class="menu-icon">
-            <span>Data Diri Asisten Praktikum</span>
+            <img src="{{ asset('img/iconPengumuman.png') }}" alt="Pengumuman" class="menu-icon">
+            <span>Pengumuman</span>
         </div>
     </a>
 
     <a href="#" class="text-decoration-none">
         <div class="menu-item">
-            <img src="{{ asset('img/iconBeritaAcara.png') }}" alt="Berita Acara" class="menu-icon">
-            <span>Berita Acara</span>
+            <img src="{{ asset('img/iconDataAsistenPraktikum.png') }}" alt="Data Asisten Praktikum" class="menu-icon">
+            <span>Data Asisten Praktikum</span>
         </div>
     </a>
 
     <a href="#" class="text-decoration-none">
         <div class="menu-item">
-            <img src="{{ asset('img/iconNilaiPraktikan.png') }}" alt="Nilai Praktikan" class="menu-icon">
-            <span>Nilai Praktikan</span>
+            <img src="{{ asset('img/iconDataCalonAsprak.png') }}" alt="Data Calon Asprak" class="menu-icon">
+            <span>Data Calon Asprak</span>
         </div>
     </a>
 </main>
