@@ -23,7 +23,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
     Route::get('/class', [AdminController::class, 'class'])->name('class');
     Route::get('/assistant-candidate', [AdminController::class, 'assistantCandidate'])->name('assistantCandidate');
-
+    Route::get('/assistant-data', [AdminController::class, 'assistantData'])->name('assistantData');
+    Route::get('/announcement', [AdminController::class, 'announcement'])->name('announcement');
 });
 
 Route::get('/navbar', function () {
