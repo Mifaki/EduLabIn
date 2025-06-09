@@ -7,8 +7,8 @@
     <h1 class="page-title">Data Calon Asprak</h1>
 
     <select class="form-select my-4" aria-label="Cari Mata Kuliah">
-        <option value="pemograman-lanjut">Pemograman Lanjut</option>
-        <option value="pemograman-web-lanjut">Pemograman Web Lanjut</option>
+        <option value="pemograman-lanjut">Pemrograman Lanjut</option>
+        <option value="pemograman-web-lanjut">Pemrograman Web Lanjut</option>
         <option value="kemanan-jaringan">Keamanan Jaringan</option>
     </select>
 
@@ -31,7 +31,7 @@
                 'prodi' => 'Teknik Informatika',
                 'email' => 'john.doe@example.com',
                 'wa' => '081234567890',
-                'kelas' => 'Pemograman Lanjut',
+                'kelas' => 'Pemrograman Lanjut',
                 'tahun' => '2023/2024'
             ],
             [
@@ -40,7 +40,7 @@
                 'prodi' => 'Sistem Informasi',
                 'email' => 'jane.smith@example.com',
                 'wa' => '081234567891',
-                'kelas' => 'Pemograman Web Lanjut',
+                'kelas' => 'Pemrograman Web Lanjut',
                 'tahun' => '2023/2024'
             ],
             [

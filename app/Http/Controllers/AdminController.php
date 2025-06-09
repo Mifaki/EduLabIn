@@ -14,7 +14,7 @@ class AdminController extends Controller
         return view('AdminProfile');
     }
 
-    public function class ()
+    public function class()
     {
         return view('AdminClass');
     }
@@ -22,5 +22,15 @@ class AdminController extends Controller
     public function assistantCandidate()
     {
         return view('AdminAssistantCandidate');
+    }
+
+    public function assistantData()
+    {
+        return view('AdminAssistantData');
+    }
+
+    public function announcement()
+    {
+        return view('AdminAnnouncement');
     }
 }

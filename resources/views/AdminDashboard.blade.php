@@ -30,28 +30,28 @@
 <main class="container py-4">
     <h1>Dashboard</h1>
 
-    <a href="#" class="text-decoration-none">
+    <a href="{{ route('admin.class') }}" class="text-decoration-none">
         <div class="menu-item">
             <img src="{{ asset('img/iconKelasPraktikum.png') }}" alt="Kelas Praktikum" class="menu-icon">
             <span>Kelas Praktikum</span>
         </div>
     </a>
 
-    <a href="#" class="text-decoration-none">
+    <a href="{{ route('admin.announcement') }}" class="text-decoration-none">
         <div class="menu-item">
             <img src="{{ asset('img/iconPengumuman.png') }}" alt="Pengumuman" class="menu-icon">
             <span>Pengumuman</span>
         </div>
     </a>
 
-    <a href="#" class="text-decoration-none">
+    <a href="{{ route('admin.assistantData') }}" class="text-decoration-none">
         <div class="menu-item">
             <img src="{{ asset('img/iconDataAsistenPraktikum.png') }}" alt="Data Asisten Praktikum" class="menu-icon">
             <span>Data Asisten Praktikum</span>
         </div>
     </a>
 
-    <a href="#" class="text-decoration-none">
+    <a href="{{ route('admin.assistantCandidate') }}" class="text-decoration-none">
         <div class="menu-item">
             <img src="{{ asset('img/iconDataCalonAsprak.png') }}" alt="Data Calon Asprak" class="menu-icon">
             <span>Data Calon Asprak</span>
