@@ -22,6 +22,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
     Route::get('/class', [AdminController::class, 'class'])->name('class');
+    Route::get('/data-class', [AdminController::class, 'dataClass'])->name('dataClass');
     Route::get('/assistant-candidate', [AdminController::class, 'assistantCandidate'])->name('assistantCandidate');
     Route::get('/assistant-data', [AdminController::class, 'assistantData'])->name('assistantData');
     Route::get('/announcement', [AdminController::class, 'announcement'])->name('announcement');

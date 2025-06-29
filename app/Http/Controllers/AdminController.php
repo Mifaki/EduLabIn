@@ -14,9 +14,14 @@ class AdminController extends Controller
         return view('AdminProfile');
     }
 
-    public function class()
+    public function class ()
     {
         return view('AdminClass');
+    }
+
+    public function dataClass()
+    {
+        return view('AdminDataClass');
     }
 
     public function assistantCandidate()
