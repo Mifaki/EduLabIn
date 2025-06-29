@@ -69,7 +69,7 @@
             </div>
         </a>
 
-        <a href="{{ route('admin.assistantCandidate') }}" class="text-decoration-none">
+        <a href="{{ route('admin.professor.data') }}" class="text-decoration-none">
             <div class="menu-item">
                 <img src="{{ asset('img/iconDataCalonAsprak.png') }}" alt="Data Dosen Praktikum" class="menu-icon">
                 <span>Data Dosen Praktikum</span>

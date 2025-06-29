@@ -38,4 +38,14 @@ class AdminController extends Controller
     {
         return view('AdminAnnouncement');
     }
+
+    public function professor()
+    {
+        return view('AdminProfessorData');
+    }
+
+    public function professorCreate()
+    {
+        return view('AdminCreateProfessorData');
+    }
 }

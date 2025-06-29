@@ -26,6 +26,11 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/assistant-candidate', [AdminController::class, 'assistantCandidate'])->name('assistantCandidate');
     Route::get('/assistant-data', [AdminController::class, 'assistantData'])->name('assistantData');
     Route::get('/announcement', [AdminController::class, 'announcement'])->name('announcement');
+    Route::prefix('professor')->name('professor.')->group(function () {
+        Route::get('/data', [AdminController::class, 'professor'])->name('data');
+        Route::get('/create', [AdminController::class, 'professorCreate'])->name('create');
+    });
+
 });
 
 Route::get('/navbar', function () {
